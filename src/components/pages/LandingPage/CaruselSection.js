@@ -116,8 +116,8 @@ function CaruselSection() {
                                                     <div class="progress mt-4" style={{ height: "40px", width: "40%", borderRadius: '50px' }}>
                                                         <div class={`progress-bar ${item < 2.5 ? "bg-danger" : item < 5 ? "bg-warning" : item < 7.5 ? "bg-info" : item > 7.5 ? "bg-success" : ""}`}
                                                             role="progressbar"
-                                                            style={{ width: `${item * 10}%`, borderRadius: '50px' }}
-                                                            aria-valuenow={`${item * 10}%`} aria-valuemin="0"
+                                                            style={{ width: `${item} * 10}%`, borderRadius: '50px' }}
+                                                            aria-valuenow={`${item} * 10}%`} aria-valuemin="0"
                                                             aria-valuemax="100">
                                                             <div className="my-auto text-start ps-3">
                                                                 <i class="fa fa-dot-circle-o fs-4" aria-hidden="true">
