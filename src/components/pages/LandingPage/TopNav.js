@@ -42,7 +42,7 @@ const SectionTwo = () => {
         <div className="col-12 my-3">
             <div className="row">
                 <div className="col-5">
-                    <h3 className="">GSE Banking APPO</h3>
+                    <h3 className="">GSE banking app</h3>
                     56% <input type="range" name="" id="" />
                 </div>
                 <div className="col-4 ms-auto">
